@@ -53,8 +53,6 @@ public class CustomObject : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
     private void FixedUpdate()
     {
-        //if (!Input.GetKeyDown(KeyCode.Z) && !Input.GetKey(KeyCode.X))
-        //    return;
         float delta = Time.fixedDeltaTime;
 
         if (!dragging)
